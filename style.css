@@ -13,7 +13,7 @@ body{
 
 header{
     background-color: #0009;
-    height: 10%;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,6 +36,7 @@ main{
     gap: 8px;
     text-decoration: none;
     padding: 8px;
+    border-radius: 20px;
 }
 
 .item-container:hover{
