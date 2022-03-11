@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 
 header{
@@ -40,6 +40,11 @@ main{
 
 .item-container:hover{
     box-shadow: 0px 0px 5px #0009;
+}
+
+.img{
+    width:38px;
+    margin: 2px;
 }
 
 footer{
