@@ -5,7 +5,6 @@
 }
 
 body{
-    height: 100vh;
     background: radial-gradient(#f0efeb, #adb5bd);
 }
 
@@ -23,10 +22,11 @@ main{
     box-shadow: 0px 0px 15px #0005;
     border-radius: 20px;
     padding: 50px;
+    transition: all 0.5s ease;
 }
 
 main:hover{
-    background-color: #d0d5df6e;   
+    background-color: #edede9b0;   
 }
 
 h1{
@@ -49,6 +49,7 @@ h1{
     align-items: center;
     display: flex;
     font-size: 25px;
+    transition: all 0.5s ease;
 }
 
 .back:hover{

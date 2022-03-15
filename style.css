@@ -37,6 +37,7 @@ main{
     text-decoration: none;
     padding: 8px;
     border-radius: 20px;
+    transition: all 0.5s ease;
 }
 
 .item-container:hover{
@@ -52,8 +53,8 @@ footer{
     background-color: #000;
     height: 50px;
     display: flex;
-    justify-content:flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     color: aliceblue;
     padding-bottom: 5px;
     padding-right: 5px;
